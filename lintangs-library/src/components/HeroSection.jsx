@@ -11,8 +11,15 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className = "font-serif">The well travelled engineer. I build and design secure, reliable software systems, from websites to IoT devices. I strive for constant improvement: Both in my chosen field of software development and security, 
-                        and in my personal self-realization. Browse my projects to see what I have been up to, or see my opinions on 
-                        matters not of the waking world in the Land of Illusion.</p>
+                        and in my personal self-realization. Browse my projects to see what I have been up to, or see my opinions and reviews of media in the blog section.</p>
+                    
+                    <a
+                        className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                        target="_blank"
+                        href="projects"
+                    >
+                        Check Out My Projects!
+                    </a>
 
 
 

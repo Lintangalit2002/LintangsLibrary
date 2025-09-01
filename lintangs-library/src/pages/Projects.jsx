@@ -3,11 +3,13 @@ import { ThemeToggle } from "@/components/ThemeToggle"
 import { StarBackground } from "@/components/StarBackground"
 import { Navbar } from "@/components/Navbar"
 
+//TODO:Hide Empty URLs
+
 const projects = [
   {
     id: 1,
     title: "Tang's Labyrinth",
-    description: "A website built for the purposes of showcasing my other projects. Built with React and TailwindCSS",
+    description: "A website built for the purposes of showcasing my other projects. Built with React and TailwindCSS. Constantly being worked on!",
     image: "/projects/labyrinth.png",
     tags: ["React", "TailwindCSS", "Javascript"],
     demoUrl: "#",
@@ -16,7 +18,7 @@ const projects = [
   {
     id: 2,
     title: "SenseHub",
-    description: "An online database built for IMEC with a team of 8 people. Gathers sensor data from the Workplace Vitality Hub in the HTC, Eindhoven",
+    description: "An online database built for IMEC with a team of 8 people. Gathers sensor data from the Workplace Vitality Hub in the High Tech Campus, Eindhoven",
     image: "/projects/sensehub.png",
     tags: ["RestAPI", "Django", "postgreSQL"],
     demoUrl: "#",
@@ -108,7 +110,7 @@ export const Projects = () => {
                 target="_blank"
                 href="https://github.com/lintangalit2002"
             >
-                Check My Github <ArrowRight size={16} />
+                Check My Github
             </a>
             </div>
         </div>
