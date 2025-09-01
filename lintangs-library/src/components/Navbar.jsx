@@ -4,10 +4,9 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
     {name: "Home", href: "#hero"},
-    {name: "About", href: "#about"},
-    {name: "Skills", href: "#skills"},
-    {name: "Projects", href: "#projects"},
-    {name: "Contact", href: "#contact"},
+    {name: "Projects", href: "projects"},
+    {name: "Contact", href: "contact"},
+    {name: "Land of Illusion", href: "art"},
 ];
 
 export const Navbar = () => {
@@ -31,8 +30,8 @@ export const Navbar = () => {
             <a 
                 href="#hero"
                 className="text-xl font-bold text-primary flex items-center">
-                <span className="relative z-10">
-                    <span className="text-glow"> Lintang's </span> Library
+                <span className="relative z-10 font-serif">
+                    Tang's Labyrinth
                 </span>
             </a>
 

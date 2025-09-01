@@ -7,7 +7,7 @@ export const StarBackground = () => {
 
         useEffect(()=> {
             generateStars();
-            generateMeteors();
+            //generateMeteors();
 
             const handleResize = () => {
                 generateStars
