@@ -1,6 +1,5 @@
 {
-  "name": "lintangs-library",
-  "homepage": "https://lintangalit2002.github.io/TangsLabyrinth",
+  "name": "TangsLabyrinth",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.15",
