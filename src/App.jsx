@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Projects } from "./pages/Projects"
 import { ContactPage } from "./pages/ContactPage";
+import { Blog } from "./pages/Blog";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
          <Route index path="home" element={<Home/>}/>
          <Route path="projects" element={<Projects/>}/>
          <Route path="contact" element={<ContactPage/>}/>
+         <Route path="blog" element={<Blog/>}/>
          <Route path="*" element={<NotFound />}/>
         </Routes>
       </BrowserRouter>
