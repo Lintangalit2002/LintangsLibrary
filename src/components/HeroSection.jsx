@@ -1,3 +1,5 @@
+import { ArrowDown } from "lucide-react";
+
 export const HeroSection = () => {
     return (<section 
     id="hero" 
@@ -25,6 +27,7 @@ export const HeroSection = () => {
 
                 </div>
             </div>
+
     </section>
     );
 };

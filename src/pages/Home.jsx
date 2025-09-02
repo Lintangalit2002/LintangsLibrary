@@ -2,6 +2,8 @@ import { ThemeToggle } from "@/components/ThemeToggle"
 import { StarBackground } from "@/components/StarBackground"
 import { Navbar } from "@/components/Navbar"
 import { HeroSection } from "@/components/HeroSection"
+import { Contact } from "@/components/Contact"
+import {ScrollPrompt} from "@/components/ScrollPrompt"
 
 
 export const Home = () => {
@@ -16,8 +18,12 @@ export const Home = () => {
         {/*Main Content */}
         <main>
             <HeroSection />
+            <ScrollPrompt />
         </main>
-
+        
         {/*Footer */}
+        <footer>
+            <Contact />
+        </footer>
     </div>
 }
