@@ -6,7 +6,7 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  //base: process.env.VITE_BASE_PATH || "/tangslabyrinth", //Edit out in development
+  base: process.env.VITE_BASE_PATH || "/tangslabyrinth", //Edit out in development
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src")

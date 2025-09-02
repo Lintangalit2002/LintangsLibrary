@@ -18,21 +18,31 @@ const projects = [
   {
     id: 2,
     title: "SenseHub",
-    description: "An online database and dashboard webapp built for IMEC with a team of 8 people. Gathers sensor data from the Workplace Vitality Hub in the High Tech Campus, Eindhoven. Code unavailable due to being stored on IMEC's proprietary azure repository",
+    description: "An online database and dashboard webapp built for IMEC with a team of 8 people. Gathers sensor data from the Workplace Vitality Hub in the High Tech Campus, Eindhoven. Code unavailable due to being stored on IMEC's proprietary Azure repository",
     image: "/projects/sensehub.png",
     tags: ["RestAPI", "Django", "postgreSQL"],
     demoUrl: "#",
     githubUrl: "#",
   },
-    {
+  {
     id: 3,
+    title: "Process Mining Project",
+    description: "A process mining tool for the business process intelligence challenge. Acted as scrum master in a group of 6 people. Recieved a 9/10.",
+    image: "/projects/processmining.png",
+    tags: ["Process Mining", "Neural Networks", "Business Process Intelligence"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Lintangalit2002/BPI_Challenge_Process_Mining",
+  },
+  {
+    id: 4,
     title: "movieViz",
-    description: "A visual analytics tool for movie night. Features TF-IDF clustering and heatmap visualizations.",
+    description: "A visual analytics tool for movie night, built with dash. Features TF-IDF clustering and heatmap visualizations.",
     image: "/projects/movieviz.png",
     tags: ["Dash", "scikit-learn", "Python"],
     demoUrl: "#",
     githubUrl: "https://github.com/Lintangalit2002/2AMV10-2025-Group-15",
   },
+
 ];
 
 export const Projects = () => {
