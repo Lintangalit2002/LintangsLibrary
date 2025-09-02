@@ -13,12 +13,12 @@ const projects = [
     image: "/projects/labyrinth.png",
     tags: ["React", "TailwindCSS", "Vercel"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Lintangalit2002/TangsLabyrinth",
   },
   {
     id: 2,
     title: "SenseHub",
-    description: "An online database and dashboard webapp built for IMEC with a team of 8 people. Gathers sensor data from the Workplace Vitality Hub in the High Tech Campus, Eindhoven",
+    description: "An online database and dashboard webapp built for IMEC with a team of 8 people. Gathers sensor data from the Workplace Vitality Hub in the High Tech Campus, Eindhoven. Code unavailable due to being stored on IMEC's proprietary azure repository",
     image: "/projects/sensehub.png",
     tags: ["RestAPI", "Django", "postgreSQL"],
     demoUrl: "#",
@@ -31,7 +31,7 @@ const projects = [
     image: "/projects/movieviz.png",
     tags: ["Dash", "scikit-learn", "Python"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Lintangalit2002/2AMV10-2025-Group-15",
   },
 ];
 
@@ -83,13 +83,6 @@ export const Projects = () => {
                     </p>
                     <div className="flex justify-between items-center">
                     <div className="flex space-x-3">
-                        <a
-                        href={project.demoUrl}
-                        target="_blank"
-                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                        >
-                        <ExternalLink size={20} />
-                        </a>
                         <a
                         href={project.githubUrl}
                         target="_blank"
