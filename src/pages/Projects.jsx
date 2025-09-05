@@ -38,7 +38,7 @@ const projects = [
     title: "movieViz",
     description: "A visual analytics tool for movie night, built with dash. Features TF-IDF clustering and heatmap visualizations.",
     image: "/projects/movieviz.png",
-    tags: ["Dash", "scikit-learn", "Python"],
+    tags: ["Dash", "scikit-learn", "Python", "plotly"],
     demoUrl: "#",
     githubUrl: "https://github.com/Lintangalit2002/2AMV10-2025-Group-15",
   },
